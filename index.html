@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Game Changers Hub - Master high-income skills in AI, Blockchain, Design, and Finance. Future-ready courses for the modern era.">
+    <title>The Game Changers Hub | Learn. Earn. Collaborate. Grow</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            bg: '#020617',     // Very dark blue/black
+                            card: '#0f172a',   // Dark slate
+                            surface: '#1e293b' // Lighter slate
+                        },
+                        brand: {
+                            yellow: '#facc15', // Vibrant Yellow
+                            blue: '#3b82f6',   // Electric Blue
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark-bg text-gray-300 font-sans selection:bg-brand-yellow selection:text-black">
+
+    <nav class="fixed w-full z-50 bg-dark-bg/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <span class="text-2xl font-bold text-white tracking-wider">GAME<span class="text-brand-yellow">CHANGERS</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#vision" class="hover:text-brand-yellow transition duration-300">Vision</a>
+                    <a href="#courses" class="hover:text-brand-yellow transition duration-300">Courses</a>
+                    <a href="#schedule" class="hover:text-brand-yellow transition duration-300">Schedule</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSedGvkVl3-kr0G1BXjdDHqDvVyHjC1hOAlS5Mv0e9KE2z_AMw/viewform?usp=pp_url" class="bg-brand-yellow text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-400 transition shadow-[0_0_15px_rgba(250,204,21,0.5)]">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative pt-32 pb-20 overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <div class="w-full h-full bg-gradient-to-br from-brand-blue to-transparent"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 text-center relative z-10">
+            <span class="text-brand-blue font-semibold tracking-widest uppercase mb-4 block animate-pulse">Unlock Your Potential</span>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                Learn. Earn. <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-yellow to-brand-blue">Collaborate. Grow.</span>
+            </h1>
+            <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+                Transform ideas into reality with industry-leading courses in AI, Blockchain, Design, and Startups.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#courses" class="bg-brand-blue text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-600 transition hover:scale-105 duration-200">Explore Courses</a>
+                <a href="#vision" class="border border-gray-600 text-white px-8 py-4 rounded-lg font-bold hover:border-brand-yellow hover:text-brand-yellow transition">Why Us?</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="vision" class="py-20 bg-dark-surface">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Future-Ready Learning</h2>
+                <div class="w-24 h-1 bg-brand-yellow mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center p-6 bg-dark-card rounded-xl border border-gray-800 hover:border-brand-blue transition duration-300 group">
+                    <div class="h-40 bg-dark-bg rounded-lg mb-6 flex items-center justify-center border border-gray-800 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition">
+                        <div class="img-card"><img src="images/5.jpeg" alt="Description" width="339 px" height="160 px"></div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Transforming Ideas</h3>
+                    <p class="text-gray-400 text-sm">
+                        We help you transform creative ideas into viable startup concepts. Our focus is on innovation, validation, and real-world execution.
+                    </p>
+                </div>
+
+                <div class="text-center p-6 bg-dark-card rounded-xl border border-gray-800 hover:border-brand-yellow transition duration-300 group">
+                    <div class="h-40 bg-dark-bg rounded-lg mb-6 flex items-center justify-center border border-gray-800 group-hover:shadow-[0_0_20px_rgba(250,204,21,0.3)] transition">
+                          <div class="img-card"><img src="images/4.jpeg" alt="Description" width="339 px" height="160 px"></div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Future Scope</h3>
+                    <p class="text-gray-400 text-sm">
+                        Master future-ready digital skills. From Web3 to AI, we prepare you for the high-demand careers of tomorrow's digital economy.
+                    </p>
+                </div>
+
+                <div class="text-center p-6 bg-dark-card rounded-xl border border-gray-800 hover:border-brand-blue transition duration-300 group">
+                    <div class="h-40 bg-dark-bg rounded-lg mb-6 flex items-center justify-center border border-gray-800 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition">
+                          <div class="img-card"><img src="images/7.jpeg" alt="Description" width="339 px" height="160 px"></div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Global Benefits</h3>
+                    <p class="text-gray-400 text-sm">
+                        Gain global exposure through international expert sessions. Build a portfolio that stands out in the creative industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="py-20 bg-dark-bg">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-white mb-2">Our Courses</h2>
+            <p class="text-gray-400 mb-12">Click "View Modules" to see curriculum details.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-brand-yellow text-xs font-bold uppercase mb-2 tracking-wide">Design</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Graphic Design Mastery</h3>
+                        <p class="text-sm text-gray-400 mb-4">Master Ps, Ai, and Canva to create high-impact visuals.</p>
+                        <button onclick="toggleAccordion('c1')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c1" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Intro to Graphic Designing</li>
+                                <li>Tools: Photoshop, Illustrator, Canva </li>
+                                <li>Branding Assets & Digital Design </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-brand-blue text-xs font-bold uppercase mb-2 tracking-wide">Media</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Video Editing Mastery</h3>
+                        <p class="text-sm text-gray-400 mb-4">Cinematic editing, color grading, and sound design.</p>
+                        <button onclick="toggleAccordion('c2')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c2" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Intro to Video Editing </li>
+                                <li>Core Editing Techniques</li>
+                                <li>Effects & Transitions </li>
+                                <li>Software Basics </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-brand-yellow text-xs font-bold uppercase mb-2 tracking-wide">Tech</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Blockchain & WEB3</h3>
+                        <p class="text-sm text-gray-400 mb-4">Understand decentralized networks and smart contracts.</p>
+                        <button onclick="toggleAccordion('c3')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c3" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Intro to Web & Internet </li>
+                                <li>Blockchain Networks & Types </li>
+                                <li>Digital Assets & Smart Contracts </li>
+                                <li>Security & Future Scope </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-green-400 text-xs font-bold uppercase mb-2 tracking-wide">Finance</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Stock Market Fundamentals</h3>
+                        <p class="text-sm text-gray-400 mb-4">Analyze shares and manage risk with structured approaches.</p>
+                        <button onclick="toggleAccordion('c4')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c4" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Intro to Financial Markets </li>
+                                <li>Basics of Shares & Trading </li>
+                                <li>Risk Management & Psychology </li>
+                                <li>Practical Trading Overview </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-brand-yellow text-xs font-bold uppercase mb-2 tracking-wide">Design</div>
+                        <h3 class="text-xl font-bold text-white mb-2">UI/UX Design Mastery</h3>
+                        <p class="text-sm text-gray-400 mb-4">From user research to high-fidelity prototyping.</p>
+                        <button onclick="toggleAccordion('c5')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c5" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>User Research & Design Thinking </li>
+                                <li>Wireframing & Info Architecture </li>
+                                <li>Prototyping & Interaction Design </li>
+                                <li>Usability & UX Testing </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-purple-400 text-xs font-bold uppercase mb-2 tracking-wide">Development</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Game Design & Dev</h3>
+                        <p class="text-sm text-gray-400 mb-4">Transform creative ideas into interactive digital experiences.</p>
+                        <button onclick="toggleAccordion('c6')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c6" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Game Design Fundamentals </li>
+                                <li>Animation Principles </li>
+                                <li>Game Development Basics </li>
+                                <li>Audio & Visual Effects </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-brand-blue text-xs font-bold uppercase mb-2 tracking-wide">Artificial Intelligence</div>
+                        <h3 class="text-xl font-bold text-white mb-2">AI Mastery Course</h3>
+                        <p class="text-sm text-gray-400 mb-4">Generative AI, prompt engineering, and visual content.</p>
+                        <button onclick="toggleAccordion('c7')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c7" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Intro to Generative AI </li>
+                                <li>Prompt Engineering Principles </li>
+                                <li>AI for Visual Content </li>
+                                <li>AI Video & Animation </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-brand-yellow text-xs font-bold uppercase mb-2 tracking-wide">Business</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Building Startups</h3>
+                        <p class="text-sm text-gray-400 mb-4">Idea validation, business planning, and early-stage support.</p>
+                        <button onclick="toggleAccordion('c8')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c8" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Idea Validation & Market Research </li>
+                                <li>Business Model Development </li>
+                                <li>Funding & Financial Basics </li>
+                                <li>Launch & Growth </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-pink-500 text-xs font-bold uppercase mb-2 tracking-wide">Marketing</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Digital Marketing</h3>
+                        <p class="text-sm text-gray-400 mb-4">Build, grow, and monetize an online presence.</p>
+                        <button onclick="toggleAccordion('c9')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c9" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>Social Media Strategy </li>
+                                <li>Branding</li>
+                                <li>SEO & Analytics </li>
+                                <li>Paid Advertising Basics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+ <div class="course-card bg-dark-surface rounded-xl overflow-hidden border border-gray-700">
+                    <div class="p-6">
+                        <div class="text-red-500 text-xs font-bold uppercase mb-2 tracking-wide">E-Commerce</div>
+                        <h3 class="text-xl font-bold text-white mb-2">E-Commerce & Digital Growth Architect Program</h3>
+                        <p class="text-sm text-gray-400 mb-4">Zero to Online Business</p>
+                        <button onclick="toggleAccordion('c10')" class="w-full flex justify-between items-center text-white bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition">
+                            <span>View Modules</span>
+                            <svg class="w-4 h-4 icon-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div id="c10" class="accordion-content">
+                            <ul class="pt-4 text-sm text-gray-300 space-y-1 list-disc pl-4">
+                                <li>E-Commerce Business Foundations</li>
+                                <li>Product Intelligence </li>
+                                <li>Marketplace Systems</li>
+                                <li>Scale & Automation </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="py-20 bg-dark-surface border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-2">Schedule & Batches</h2>
+                <p class="text-gray-400">Secure your spot in the next cohort.</p>
+            </div>
+
+            <div class="overflow-x-auto rounded-xl border border-gray-700 shadow-2xl">
+                <table class="min-w-full bg-dark-card text-left">
+                    <thead class="bg-gray-800 text-brand-yellow font-bold uppercase text-sm tracking-wider">
+                        <tr>
+                            <th class="py-4 px-6">Course Name</th>
+                            <th class="py-4 px-6">Start Date</th>
+                            <th class="py-4 px-6">Duration</th>
+                            <th class="py-4 px-6 text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-700 text-gray-300">
+                        <tr class="hover:bg-gray-800 transition">
+                            <td class="py-4 px-6 font-medium text-white">Graphic Design</td>
+                            <td class="py-4 px-6 text-brand-blue">Feb 01, 2026</td>
+                            <td class="py-4 px-6">8 Weeks</td>
+                            <td class="py-4 px-6 text-center">
+                                <button class="bg-transparent border border-brand-yellow text-brand-yellow px-4 py-1 rounded text-sm hover:bg-brand-yellow hover:text-black transition font-bold">Enroll</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-800 transition">
+                            <td class="py-4 px-6 font-medium text-white">Blockchain & Web3</td>
+                            <td class="py-4 px-6 text-brand-blue">Feb 10, 2026</td>
+                            <td class="py-4 px-6">10 Weeks</td>
+                            <td class="py-4 px-6 text-center">
+                                <button class="bg-transparent border border-brand-yellow text-brand-yellow px-4 py-1 rounded text-sm hover:bg-brand-yellow hover:text-black transition font-bold">Enroll</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-800 transition">
+                            <td class="py-4 px-6 font-medium text-white">AI Mastery</td>
+                            <td class="py-4 px-6 text-brand-blue">Feb 15, 2026</td>
+                            <td class="py-4 px-6">4 Weeks</td>
+                            <td class="py-4 px-6 text-center">
+                                <button class="bg-transparent border border-brand-yellow text-brand-yellow px-4 py-1 rounded text-sm hover:bg-brand-yellow hover:text-black transition font-bold">Enroll</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center text-gray-500 text-xs mt-4">* Dates are subject to change. Contact support for confirmation.</p>
+        </div>
+<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedGvkVl3-kr0G1BXjdDHqDvVyHjC1hOAlS5Mv0e9KE2z_AMw/viewform?embedded=true" width="640" height="1277" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>--!>
+ 
+  </section>
+<div class="footer_stikky py-2">
+        <div class="container">
+            <div class="row align-items-center">
+               <div class="col-sm-6 text-center text-sm-start mb-3 mb-sm-0"> <a href="https://chat.whatsapp.com/CrQI2efu9OeBhkaq7Q79hL?mode=gi_t"
+   class="whatsapp-float"
+   target="_blank">
+    <i class="bi bi-whatsapp"></i>
+</a></div>
+                               <div class="col-sm-6 text-center text-sm-end">
+                    <a  href="https://docs.google.com/forms/d/e/1FAIpQLSedGvkVl3-kr0G1BXjdDHqDvVyHjC1hOAlS5Mv0e9KE2z_AMw/viewform?usp=pp_url"   class="bg-brand-yellow text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-400 transition shadow-[0_0_15px_rgba(250,204,21,0.5)]"">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <footer class="bg-black text-white py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="col-span-1 md:col-span-1">
+                <span class="text-xl font-bold tracking-wider text-brand-yellow">GAME CHANGERS</span>
+                <p class="text-gray-500 text-sm mt-4">
+                    Learn. Earn. Collaborate. Grow.. Empowering the next generation of digital leaders.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-brand-blue">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white">Home</a></li>
+                    <li><a href="#courses" class="hover:text-white">All Courses</a></li>
+                    <li><a href="#schedule" class="hover:text-white">Schedule</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-brand-blue">Legal</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-brand-blue">Contact</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li>support@gamechangers.hub</li>
+                    <li>+1 (555) 000-0000</li>
+                    <li>Global Headquarters</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-12 pt-8 border-t border-gray-900 text-gray-600 text-sm">
+            &copy; 2026 Escon Info Systems. All rights reserved.
+
+
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -24,4 +24,24 @@ function toggleAccordion(id) {
         if(icon) icon.classList.add('rotate-180');
     } 
     // If it was active, the "Close all" block above already closed it.
+
 }
+
+<script>
+let lastScrollTop = 0;
+const footer = document.querySelector('.footer_stikky');
+
+window.addEventListener('scroll', function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // Scrolling Down
+        footer.classList.add("footer-hidden");
+    } else {
+        // Scrolling Up
+        footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+});
+</script>

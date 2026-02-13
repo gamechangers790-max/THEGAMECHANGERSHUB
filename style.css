@@ -99,3 +99,28 @@
 .yellow_btn {
     animation: pulse 2s infinite;
 }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 90px; /* adjust if you have sticky footer */
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.1);
+}
